@@ -1,6 +1,6 @@
-# Gruvbox Wallpapers
-A place where to find gruvbox theme wallpapers.
-[https://gruvbox-wallpapers.pages.dev/](https://gruvbox-wallpapers.pages.dev/ 'Gruvbox Wallpapers')
+# Rosé Pine Wallpapers
+A place where to find rosé pine theme wallpapers.
+[https://rose-pine-wallpapers.pages.dev/](https://rose-pine-wallpapers.pages.dev/ 'Rosé Pine Wallpapers')
 ## Contributions
 
 1. Fork the project.
@@ -14,7 +14,7 @@ A place where to find gruvbox theme wallpapers.
 > [!TIP]
 > If your wallpaper does not fit in any of the folders we can debate the creation of a new one.
 
-I tend to accept any contributions, but let's keep the site with images that match or look good with the gruvbox's color scheme :').
+I tend to accept any contributions, but let's keep the site with images that match or look good with the rosé pine's color scheme :').
 
 ## Disclaimer 
 
