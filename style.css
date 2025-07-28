@@ -2,32 +2,30 @@
 
 :root {
   color-scheme: light dark;
-  --bg-color: light-dark(#fbf1c7, #282828);
-  --fg-color: light-dark(#3c3836, #ebdbb2);
+  --bg-color: light-dark(#faf4ed, #191724);
+  --fg-color: light-dark(#575279, #e0def4);
 
-  --bg-color-reverse: light-dark(#3c3836, #ebdbb2);
-  --fg-color-reverse: light-dark(#fbf1c7, #282828);
+  --bg-color-reverse: light-dark(#575279, #e0def4);
+  --fg-color-reverse: light-dark(#faf4ed, #191724);
 
-  --bg-color-3: light-dark(#bdae93, #665c54);
-  --bg-color-3-switch: light-dark(#665c54, #bdae93);
-  --bg-color-hard: light-dark(#f9f5d7, #1d2021);
-  --gray: light-dark(#7c6f64, #a89984);
+  --bg-color-3: light-dark(#f2e9e1, #26233a);
+  --bg-color-3-switch: light-dark(#26233a, #f2e9e1);
+  --bg-color-hard: light-dark(#fffaf3, #1f1d2e);
+  --gray: light-dark(#9893a5, #6e6a86);
 
-  --orange: #d65d0e;
-  --red: #cc241d;
-  --green: #98971a;
-  --yellow: #d79921;
-  --blue: #458588;
-  --purple: #b16286;
-  --aqua: #689d6a;
+  --red: #eb6f92;
+  --green: #9ccfd8;
+  --yellow: #f6c177;
+  --blue: #31748f;
+  --purple: #c4a7e7;
+  --aqua: #ebbcba;
 
-  --orange-dim: light-dark(#af3a03, #fe8019);
-  --red-dim: light-dark(#9d0006, #fb4934);
-  --green-dim: light-dark(#79740e, #b8bb26);
-  --yellow-dim: light-dark(#b57614, #fabd2f);
-  --blue-dim: light-dark(#076678, #83a598);
-  --purple-dim: light-dark(#8f3f71, #d3869d);
-  --aqua-dim: light-dark(#427b58, #8ec07c);
+  --red-dim: light-dark(#b4637a, #eb6f92);
+  --green-dim: light-dark(#56949f, #9ccfd8);
+  --yellow-dim: light-dark(#ea9d34, #f6c177);
+  --blue-dim: light-dark(#286983, #31748f);
+  --purple-dim: light-dark(#907aa9, #c4a7e7);
+  --aqua-dim: light-dark(#d7827e, #ebbcba);
 }
 
 body {
@@ -54,19 +52,18 @@ h2 {
   text-decoration: none;
 }
 
-.s1, .s2, .s3, .s4, .s5, .s6, .s7 {
+.s1, .s2, .s3, .s4, .s5, .s6 {
   transition: background 0.7s ease-in-out;
   margin-bottom: 0;
   &:hover { background-color: var(--dim-color); }
 }
 
-.s1 { background-color: var(--orange); --dim-color: var(--orange-dim); }
-.s2 { background-color: var(--red); --dim-color: var(--red-dim); }
-.s3 { background-color: var(--green); --dim-color: var(--green-dim); }
-.s4 { background-color: var(--yellow); --dim-color: var(--yellow-dim); }
-.s5 { background-color: var(--blue); --dim-color: var(--blue-dim); }
-.s6 { background-color: var(--purple); --dim-color: var(--purple-dim); }
-.s7 { background-color: var(--aqua); --dim-color: var(--aqua-dim); }
+.s1 { background-color: var(--red); --dim-color: var(--red-dim); }
+.s2 { background-color: var(--green); --dim-color: var(--green-dim); }
+.s3 { background-color: var(--yellow); --dim-color: var(--yellow-dim); }
+.s4 { background-color: var(--blue); --dim-color: var(--blue-dim); }
+.s5 { background-color: var(--purple); --dim-color: var(--purple-dim); }
+.s6 { background-color: var(--aqua); --dim-color: var(--aqua-dim); }
 
 .c {
   padding: 1em;
