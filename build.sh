@@ -76,13 +76,13 @@ echo "<!DOCTYPE html>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <link rel='stylesheet' type='text/css' href='style.css'>
-  <title>Gruvbox wallpapers</title>
+  <title>Rosé Pine wallpapers</title>
   <script src='app.js' defer></script>
   <script src='https://kit.fontawesome.com/13865d7982.js' crossorigin='anonymous' defer></script>
 </head>
 <body>
   <div class='float-btns'>
-    <a href='https://github.com/AngelJumbo/gruvbox-wallpapers' target='_blank' class='btn float-btn' title='Source code' >
+    <a href='https://github.com/p4rfait/rose-pine-wallpapers' target='_blank' class='btn float-btn' title='Source code' >
       <span>
         <i class='fa-brands fa-github'></i>
       </span>
@@ -95,7 +95,7 @@ echo "<!DOCTYPE html>
     </button>
   </div>
   <main>
-  <h1>Gruvbox Wallpapers</h1>" >./index.html
+  <h1>Rosé Pine Wallpapers</h1>" >./index.html
 
 color=1
 
@@ -147,7 +147,7 @@ for subdir in ./wallpapers/*; do
   echo "</div>" >>./index.html
 
   color=$((color + 1))
-  if [ "$color" -eq 8 ]; then
+  if [ "$color" -eq 7 ]; then
     color=1
   fi
 done
